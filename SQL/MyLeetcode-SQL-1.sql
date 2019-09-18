@@ -1,4 +1,4 @@
-##1068. Product Sales Analysis I
+--1068. Product Sales Analysis I
 --
 --Table: Sales
 --
@@ -57,3 +57,7 @@
 --+--------------+-------+-------+
 
 SELECT p.product_name, s.year, s.price FROM Product p join Sales s ON p.product_id = s.product_id
+
+---------------------------------------------------------------------------------------------------------------------
+
+
